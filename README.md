@@ -42,7 +42,7 @@ trading_bot/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/binance-trading-bot.git
+git clone https://github.com/Gurnav224/binance-trading-bot.git
 cd binance-trading-bot
 ```
 
@@ -84,7 +84,7 @@ API_SECRET=your_binance_testnet_secret_key
 ### 🔹 Market Order
 
 ```bash
-python -m bot.cli --symbol BTCUSDT --side BUY --type MARKET --qty 0.004
+python  cli.py --symbol BTCUSDT --side BUY --type MARKET --qty 0.004
 ```
 
 ---
@@ -92,7 +92,7 @@ python -m bot.cli --symbol BTCUSDT --side BUY --type MARKET --qty 0.004
 ### 🔹 Limit Order
 
 ```bash
-python -m bot.cli --symbol BTCUSDT --side BUY --type LIMIT --qty 0.004 --price 30000
+python cli.py --symbol BTCUSDT --side BUY --type LIMIT --qty 0.004 --price 30000
 ```
 
 ---
@@ -168,14 +168,6 @@ Included in `logs.txt`:
 
 ---
 
-## 🚀 Future Improvements
-
-* Add Stop-Limit / OCO orders
-* Add retry mechanism for failed API calls
-* Add simple UI (optional)
-* Docker support
-
----
 
 ## 👨‍💻 Author
 
